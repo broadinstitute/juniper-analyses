@@ -1,0 +1,143 @@
+IQ-TREE multicore version 2.3.3 COVID-edition for MacOS Intel 64-bit built Apr 18 2024
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    wm27d-094 (AVX2, FMA3, 16 GB RAM)
+Command: iqtree2 -s south-africa-outbreak/input_data/combined.fasta -m JC --prefix south-africa-outbreak/iqtree/iqtree-results
+Seed:    229891 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sun Dec 15 23:07:05 2024
+Kernel:  AVX+FMA - 1 threads (12 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 12 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file south-africa-outbreak/input_data/combined.fasta ... Fasta format detected
+Reading fasta file: done in 0.016118 secs using 84.24% CPU
+Alignment most likely contains DNA/RNA sequences
+WARNING: 11 sites contain only gaps or ambiguous characters.
+Alignment has 23 sequences with 29903 columns, 92 distinct patterns
+6 parsimony-informative, 21 singleton sites, 29876 constant sites
+                Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 2.31266e-05 secs using 77.83% CPU
+   1  EPI_ISL_467432    0.30%    passed     99.99%
+   2  EPI_ISL_467433    0.30%    passed    100.00%
+   3  EPI_ISL_467435    0.26%    passed    100.00%
+   4  EPI_ISL_467442    0.11%    passed     99.96%
+   5  EPI_ISL_467444    0.04%    passed     99.76%
+   6  EPI_ISL_467445    0.11%    passed    100.00%
+   7  EPI_ISL_467446    0.31%    passed     99.99%
+   8  EPI_ISL_467450    0.09%    passed     99.99%
+   9  EPI_ISL_467451    0.10%    passed    100.00%
+  10  EPI_ISL_467455    0.22%    passed    100.00%
+  11  EPI_ISL_467456    0.22%    passed    100.00%
+  12  EPI_ISL_467457    0.10%    passed    100.00%
+  13  EPI_ISL_467458    2.19%    passed     99.73%
+  14  EPI_ISL_467460    0.22%    passed    100.00%
+  15  EPI_ISL_467466    0.25%    passed    100.00%
+  16  EPI_ISL_467467    0.19%    passed     99.98%
+  17  EPI_ISL_467468    0.26%    passed    100.00%
+  18  EPI_ISL_467507    0.17%    passed    100.00%
+  19  EPI_ISL_467524    0.13%    passed    100.00%
+  20  EPI_ISL_495550    0.19%    passed    100.00%
+  21  EPI_ISL_495552    1.33%    passed     99.81%
+  22  EPI_ISL_498102    0.15%    passed     99.96%
+  23  EPI_ISL_498105    0.89%    passed     99.99%
+****  TOTAL             0.35%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: EPI_ISL_467460 is identical to EPI_ISL_467456 but kept for subsequent analysis
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.002 seconds
+
+NOTE: 0 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -41743.007
+Optimal log-likelihood: -41743.006
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Parameters optimization took 1 rounds (0.003 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.00212312 secs using 89.59% CPU
+Computing ML distances took 0.002260 sec (of wall-clock time) 0.001978 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 5.10216e-05 secs using 74.48% CPU
+Computing RapidNJ tree took 0.000187 sec (of wall-clock time) 0.000156 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -41743.473
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.051 second
+Computing log-likelihood of 98 initial trees ... 0.039 seconds
+Current best score: -41743.006
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -41743.006
+BETTER TREE FOUND at iteration 3: -41743.006
+Iteration 10 / LogL: -41743.006 / Time: 0h:0m:0s
+Iteration 20 / LogL: -41743.006 / Time: 0h:0m:0s
+Finish initializing candidate tree set (20)
+Current best tree score: -41743.006 / CPU time: 0.115
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+BETTER TREE FOUND at iteration 30: -41743.006
+Iteration 30 / LogL: -41743.006 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 40 / LogL: -41743.286 / Time: 0h:0m:0s (0h:0m:0s left)
+BETTER TREE FOUND at iteration 50: -41743.006
+Iteration 50 / LogL: -41743.006 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 60 / LogL: -41743.122 / Time: 0h:0m:0s (0h:0m:0s left)
+UPDATE BEST LOG-LIKELIHOOD: -41743.006
+Iteration 70 / LogL: -41743.006 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 80 / LogL: -41743.006 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 90 / LogL: -41743.098 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 100 / LogL: -41743.051 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 110 / LogL: -41743.006 / Time: 0h:0m:0s (0h:0m:0s left)
+BETTER TREE FOUND at iteration 119: -41743.006
+Iteration 120 / LogL: -41743.291 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 130 / LogL: -41745.605 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 140 / LogL: -41743.084 / Time: 0h:0m:0s (0h:0m:0s left)
+BETTER TREE FOUND at iteration 150: -41743.006
+Iteration 150 / LogL: -41743.006 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 160 / LogL: -41743.006 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 170 / LogL: -41743.006 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 180 / LogL: -41743.006 / Time: 0h:0m:0s (0h:0m:0s left)
+BETTER TREE FOUND at iteration 189: -41743.006
+Iteration 190 / LogL: -41743.051 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 200 / LogL: -41743.006 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 210 / LogL: -41743.064 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 220 / LogL: -41743.006 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 230 / LogL: -41743.006 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 240 / LogL: -41743.006 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 250 / LogL: -41745.755 / Time: 0h:0m:1s (0h:0m:0s left)
+Iteration 260 / LogL: -41745.577 / Time: 0h:0m:1s (0h:0m:0s left)
+Iteration 270 / LogL: -41755.353 / Time: 0h:0m:1s (0h:0m:0s left)
+Iteration 280 / LogL: -41743.006 / Time: 0h:0m:1s (0h:0m:0s left)
+Iteration 290 / LogL: -41743.125 / Time: 0h:0m:1s (0h:0m:-1s left)
+TREE SEARCH COMPLETED AFTER 290 ITERATIONS / Time: 0h:0m:1s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -41743.006
+Optimal log-likelihood: -41743.006
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Parameters optimization took 1 rounds (0.001 sec)
+BEST SCORE FOUND : -41743.006
+Total tree length: 0.001
+
+Total number of iterations: 290
+CPU time used for tree search: 1.165 sec (0h:0m:1s)
+Wall-clock time used for tree search: 1.191 sec (0h:0m:1s)
+Total CPU time used: 1.183 sec (0h:0m:1s)
+Total wall-clock time used: 1.224 sec (0h:0m:1s)
+
+Analysis results written to: 
+  IQ-TREE report:                south-africa-outbreak/iqtree/iqtree-results.iqtree
+  Maximum-likelihood tree:       south-africa-outbreak/iqtree/iqtree-results.treefile
+  Likelihood distances:          south-africa-outbreak/iqtree/iqtree-results.mldist
+  Screen log file:               south-africa-outbreak/iqtree/iqtree-results.log
+
+Date and Time: Sun Dec 15 23:07:06 2024

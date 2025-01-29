@@ -1,0 +1,142 @@
+IQ-TREE 2.3.3 COVID-edition built Apr 18 2024
+
+Input file name: south-africa-outbreak/input_data/combined.fasta
+Type of analysis: tree reconstruction
+Random seed number: 229891
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 23 sequences with 29903 nucleotide sites
+Number of constant sites: 29876 (= 99.9097% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 29876 (= 99.9097% of all sites)
+Number of parsimony informative sites: 6
+Number of distinct site patterns: 92
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: JC
+
+Rate parameter R:
+
+  A-C: 1.0000
+  A-G: 1.0000
+  A-T: 1.0000
+  C-G: 1.0000
+  C-T: 1.0000
+  G-T: 1.0000
+
+State frequencies: (equal frequencies)
+
+Rate matrix Q:
+
+  A        -1    0.3333    0.3333    0.3333
+  C    0.3333        -1    0.3333    0.3333
+  G    0.3333    0.3333        -1    0.3333
+  T    0.3333    0.3333    0.3333        -1
+
+Model of rate heterogeneity: Uniform
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -41743.0060 (s.e. 53.4215)
+Unconstrained log-likelihood (without tree): -47437.7040
+Number of free parameters (#branches + #model parameters): 43
+Akaike information criterion (AIC) score: 83572.0120
+Corrected Akaike information criterion (AICc) score: 83572.1388
+Bayesian information criterion (BIC) score: 83929.1577
+
+Total tree length (sum of branch lengths): 0.0009
+Sum of internal branch lengths: 0.0002 (19.2436% of tree length)
+
+WARNING: 16 near-zero internal branches (<0.0000) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'EPI_ISL_467432' is drawn at root
+
++**EPI_ISL_467432
+|
+|                                     +**EPI_ISL_467433
+|                                  +**|
+|                                  |  +**EPI_ISL_467468
+|                               +**|
+|                               |  +----EPI_ISL_467435
+|                            +**|
+|                            |  +**EPI_ISL_467446
+|                         +**|
+|                         |  +**EPI_ISL_467442
+|                      +**|
+|                      |  +**EPI_ISL_467444
+|                 +----|
+|                 |    |     +---------EPI_ISL_467445
+|                 |    |  +**|
+|                 |    |  |  |                  +--------------------EPI_ISL_467507
+|                 |    |  |  |               +**|
+|                 |    |  |  |               |  +-------------------------EPI_ISL_498105
+|                 |    |  |  +---------------|
+|                 |    |  |                  +------------------------------------EPI_ISL_498102
+|                 |    +**|
+|                 |       +**EPI_ISL_467451
+|              +**|
+|              |  +**EPI_ISL_467450
+|           +**|
+|           |  +**EPI_ISL_467457
+|        +**|
+|        |  |    +----EPI_ISL_467524
+|        |  +----|
+|        |       |    +**EPI_ISL_495550
+|        |       +----|
+|        |            +**EPI_ISL_495552
+|     +**|
+|     |  +----EPI_ISL_467467
+|  +**|
+|  |  |  +**EPI_ISL_467455
+|  |  +**|
+|  |     |  +**EPI_ISL_467456
+|  |     +**|
+|  |        +**EPI_ISL_467460
++**|
+|  +**EPI_ISL_467466
+|
++**EPI_ISL_467458
+
+Tree in newick format:
+
+(EPI_ISL_467432:0.0000010000,((((((((((((EPI_ISL_467433:0.0000010000,EPI_ISL_467468:0.0000010000):0.0000010000,EPI_ISL_467435:0.0000334422):0.0000010000,EPI_ISL_467446:0.0000010000):0.0000010000,EPI_ISL_467442:0.0000010000):0.0000010000,EPI_ISL_467444:0.0000010000):0.0000010000,((EPI_ISL_467445:0.0000668859,((EPI_ISL_467507:0.0001337778,EPI_ISL_498105:0.0001687193):0.0000010000,EPI_ISL_498102:0.0002341268):0.0001003311):0.0000010000,EPI_ISL_467451:0.0000010000):0.0000010000):0.0000334422,EPI_ISL_467450:0.0000010000):0.0000010000,EPI_ISL_467457:0.0000010000):0.0000010000,(EPI_ISL_467524:0.0000334422,(EPI_ISL_495550:0.0000010000,EPI_ISL_495552:0.0000010000):0.0000334422):0.0000334422):0.0000010000,EPI_ISL_467467:0.0000334422):0.0000010000,(EPI_ISL_467455:0.0000010000,(EPI_ISL_467456:0.0000010000,EPI_ISL_467460:0.0000010000):0.0000010000):0.0000010000):0.0000010000,EPI_ISL_467466:0.0000010000):0.0000010000,EPI_ISL_467458:0.0000010000);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t south-africa-outbreak/iqtree/iqtree-results.treefile -m "JC" --length 29903
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s south-africa-outbreak/input_data/combined.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s south-africa-outbreak/input_data/combined.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Sun Dec 15 23:07:06 2024
+Total CPU time used: 1.18282 seconds (0h:0m:1s)
+Total wall-clock time used: 1.22821 seconds (0h:0m:1s)
+

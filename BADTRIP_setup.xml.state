@@ -1,0 +1,24 @@
+<itsabeastystatewerein version='2.0' sample='100000'>
+<statenode id='tree'>((HH3:3.2465602052545073,(HH14:1.9358732556957108)HH25:6.697999289028878,(HH12:1.5104815910745266,HH36:3.0996371628050348,HH37:5.566057048277994)HH34:8.054726064408829,(HH47:7.597044584270735)HH35:11.731166903761007)HH13:0.3287679126568257,(((((HH11:8.175757028364721)HH40:0.6550219996031181)HH33:0.6995927906789738,((((HH26:0.9368759707374679)HH42:4.267914952962631)HH15:0.5904504025451125,((HH50:6.167994127619677)HH45:1.3282621266196735)HH46:5.5488940189092055,HH23:5.613694800293336)HH21:0.746962078489684)HH43:2.853339786625188,HH27:4.324755299520557)HH22:1.432928880270552,(((HH38:8.00660167396487)HH48:1.571039016024013,(HH30:4.776753174551567)HH49:1.6252720227990842,HH9:3.564725560144568,HH39:7.113305812993197)HH10:4.232693531427113)HH44:2.4056061843074232)HH4:0.2866594804132454)HH6:0.7157515704005313,((HH19:4.47239096356337,HH31:7.066383963392223)HH8:1.7016029501777012,((HH32:1.7776948404255144,HH20:3.828256635446863,HH41:6.060142199576346)HH18:2.554975772999498)HH7:1.7611122633396796)HH2:1.5735383639439569,(HH29:1.964863044355333)HH24:6.200740343313818,(HH5:0.5315686268214002,(HH28:3.413733753655359)HH16:5.003983904429115)HH17:8.987426465437306)HH1:0.0</statenode>
+<statenode id='PoMo.bottleneck'>PoMo.bottleneck[1 1] (-Infinity,10000.0): 0.8183391364886982 </statenode>
+<statenode id='mutationRate'>mutationRate[1 1] (0.0,Infinity): 0.0038795073804822077 </statenode>
+<statenode id='PoMo.fitness'>PoMo.fitness[4 1] (0.8,1.2): 1.0 1.0 1.0 1.0 </statenode>
+<statenode id='PoMo.mutRates'>PoMo.mutRates[1 1] (0.0,0.3): 5.0058670254915006E-5 </statenode>
+<statenode id='PoMo.seqError'>PoMo.seqError[1 1] (-Infinity,Infinity): 0.0 </statenode>
+<statenode id='PoMo.nucFreqs'>PoMo.nucFreqs[4 1] (0.0,Infinity): 0.2523106874561772 0.2428356248813336 0.24644038167556842 0.25841330598692075 </statenode>
+<statenode id='PoMo.rootFreqs'>PoMo.rootFreqs[4 1] (-Infinity,Infinity): 0.25 0.25 0.25 0.25 </statenode>
+</itsabeastystatewerein>
+<!--
+{"operators":[
+{"id":"mutScaler","p":0.9500000000000001,"accept":1711,"reject":193,"acceptFC":0,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"muRateScaler","p":0.9500000000000001,"accept":1673,"reject":207,"acceptFC":0,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"bottleneckScaler","p":0.8999999999999999,"accept":1703,"reject":100,"acceptFC":0,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"RelativeScaler","p":0.9500000000000001,"accept":1586,"reject":296,"acceptFC":0,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"unknown","p":"NaN","accept":12474,"reject":6180,"acceptFC":0,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"unknown","p":"NaN","accept":6008,"reject":12429,"acceptFC":0,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"unknown","p":"NaN","accept":4349,"reject":14235,"acceptFC":0,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"unknown","p":"NaN","accept":14448,"reject":3721,"acceptFC":0,"rejectFC":0,"rejectIv":3325,"rejectOp":3325},
+{"id":"unknown","p":"NaN","accept":6761,"reject":11750,"acceptFC":0,"rejectFC":0,"rejectIv":2112,"rejectOp":2112},
+{"id":"freqExchanger","p":0.010000000000000004,"accept":91,"reject":86,"acceptFC":0,"rejectFC":0,"rejectIv":0,"rejectOp":0}
+]}
+-->
