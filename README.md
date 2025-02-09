@@ -1,2 +1,2 @@
 # juniper-analyses
-Code to run analyses and generate figures for JUNIPER: Reconstructing Transmission Events from Next-Generation Sequencing Data at Scale
+Code to run analyses and generate figures for JUNIPER: Reconstructing Transmission Events from Next-Generation Sequencing Data at Scale. Note that certain large files required for the analyses could not be stored in this repository; please download the file juniper-analyses-oversize.zip from the Zenodo repository 10.5281/zenodo.14841603 and merge the contents with the juniper-analyses directory stored here. For example, the large file juniper-analyses-oversize/h5n1/res.RData from the Zenodo repository should be moved to juniper-analyses/h5n1/res.RData in this repository.
