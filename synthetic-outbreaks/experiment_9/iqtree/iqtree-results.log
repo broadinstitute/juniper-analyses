@@ -1,0 +1,167 @@
+IQ-TREE multicore version 2.3.3 COVID-edition for MacOS Intel 64-bit built Apr 18 2024
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    wm27d-094 (AVX2, FMA3, 16 GB RAM)
+Command: iqtree2 -s experiment_9/input_data/aligned.fasta -m JC --prefix experiment_9/iqtree/iqtree-results
+Seed:    341393 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sun Nov  3 20:24:58 2024
+Kernel:  AVX+FMA - 1 threads (12 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 12 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file experiment_9/input_data/aligned.fasta ... Fasta format detected
+Reading fasta file: done in 0.011065 secs using 86.43% CPU
+Alignment most likely contains DNA/RNA sequences
+Alignment has 50 sequences with 10000 columns, 50 distinct patterns
+26 parsimony-informative, 36 singleton sites, 9938 constant sites
+                                         Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 1.40667e-05 secs using 85.31% CPU
+   1  person_784654|blah-blah-blah|2000-01-08    0.00%    passed      5.90%
+   2  person_648851|blah-blah-blah|2000-01-15    0.00%    passed     39.88%
+   3  person_714145|blah-blah-blah|2000-01-14    0.00%    passed     59.92%
+   4  person_649543|blah-blah-blah|2000-01-19    0.00%    passed     39.88%
+   5  person_507810|blah-blah-blah|2000-01-16    0.00%    passed     46.34%
+   6  person_10433|blah-blah-blah|2000-01-21     0.00%    passed     59.92%
+   7  person_935700|blah-blah-blah|2000-01-27    0.00%    passed     98.03%
+   8  person_978292|blah-blah-blah|2000-02-02    0.00%    passed     53.25%
+   9  person_836163|blah-blah-blah|2000-01-20    0.00%    passed     59.92%
+  10  person_245506|blah-blah-blah|2000-02-04    0.00%    passed     59.92%
+  11  person_908834|blah-blah-blah|2000-01-28    0.00%    passed     59.92%
+  12  person_404829|blah-blah-blah|2000-02-09    0.00%    failed      0.02%
+  13  person_253125|blah-blah-blah|2000-01-27    0.00%    passed     71.06%
+  14  person_945684|blah-blah-blah|2000-01-29    0.00%    passed     70.41%
+  15  person_53100|blah-blah-blah|2000-01-30     0.00%    passed     90.98%
+  16  person_776874|blah-blah-blah|2000-02-03    0.00%    passed     98.03%
+  17  person_62537|blah-blah-blah|2000-02-01     0.00%    passed     46.09%
+  18  person_903873|blah-blah-blah|2000-02-05    0.00%    passed     11.44%
+  19  person_938792|blah-blah-blah|2000-02-03    0.00%    passed     59.92%
+  20  person_197470|blah-blah-blah|2000-01-31    0.00%    passed     71.06%
+  21  person_642376|blah-blah-blah|2000-01-28    0.00%    passed     71.06%
+  22  person_742855|blah-blah-blah|2000-02-06    0.00%    passed     71.06%
+  23  person_817393|blah-blah-blah|2000-02-04    0.00%    passed     54.44%
+  24  person_976885|blah-blah-blah|2000-02-04    0.00%    passed     90.98%
+  25  person_298764|blah-blah-blah|2000-02-02    0.00%    passed     71.06%
+  26  person_818116|blah-blah-blah|2000-02-08    0.00%    passed     82.26%
+  27  person_943912|blah-blah-blah|2000-02-07    0.00%    passed     59.92%
+  28  person_818121|blah-blah-blah|2000-02-01    0.00%    passed     59.92%
+  29  person_251973|blah-blah-blah|2000-02-03    0.00%    passed     77.91%
+  30  person_755930|blah-blah-blah|2000-02-08    0.00%    passed     77.91%
+  31  person_35437|blah-blah-blah|2000-02-04     0.00%    passed     37.39%
+  32  person_462509|blah-blah-blah|2000-02-08    0.00%    passed     71.06%
+  33  person_113326|blah-blah-blah|2000-02-09    0.00%    passed     71.06%
+  34  person_914781|blah-blah-blah|2000-02-09    0.00%    passed     77.91%
+  35  person_493040|blah-blah-blah|2000-02-03    0.00%    passed     48.14%
+  36  person_99481|blah-blah-blah|2000-02-09     0.00%    passed     48.14%
+  37  person_374857|blah-blah-blah|2000-02-02    0.00%    passed     77.91%
+  38  person_366892|blah-blah-blah|2000-02-05    0.00%    passed     95.42%
+  39  person_565634|blah-blah-blah|2000-02-03    0.00%    passed     59.92%
+  40  person_175246|blah-blah-blah|2000-02-08    0.00%    passed     11.44%
+  41  person_527329|blah-blah-blah|2000-02-08    0.00%    passed     11.44%
+  42  person_261591|blah-blah-blah|2000-02-07    0.00%    passed     90.98%
+  43  person_567328|blah-blah-blah|2000-02-09    0.00%    passed     99.47%
+  44  person_313392|blah-blah-blah|2000-02-09    0.00%    passed     99.47%
+  45  person_285248|blah-blah-blah|2000-02-08    0.00%    passed     37.39%
+  46  person_699625|blah-blah-blah|2000-02-08    0.00%    failed      0.59%
+  47  person_536553|blah-blah-blah|2000-02-09    0.00%    passed     36.50%
+  48  person_459091|blah-blah-blah|2000-02-09    0.00%    passed     56.64%
+  49  person_162540|blah-blah-blah|2000-02-09    0.00%    passed     34.87%
+  50  person_989228|blah-blah-blah|2000-02-09    0.00%    failed      2.07%
+****  TOTAL                                      0.00%  3 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: person_649543|blah-blah-blah|2000-01-19 is identical to person_648851|blah-blah-blah|2000-01-15 but kept for subsequent analysis
+NOTE: person_10433|blah-blah-blah|2000-01-21 is identical to person_714145|blah-blah-blah|2000-01-14 but kept for subsequent analysis
+NOTE: person_298764|blah-blah-blah|2000-02-02 is identical to person_253125|blah-blah-blah|2000-01-27 but kept for subsequent analysis
+NOTE: person_175246|blah-blah-blah|2000-02-08 is identical to person_903873|blah-blah-blah|2000-02-05 but kept for subsequent analysis
+NOTE: person_261591|blah-blah-blah|2000-02-07 is identical to person_976885|blah-blah-blah|2000-02-04 but kept for subsequent analysis
+NOTE: person_914781|blah-blah-blah|2000-02-09 is identical to person_251973|blah-blah-blah|2000-02-03 but kept for subsequent analysis
+NOTE: person_285248|blah-blah-blah|2000-02-08 is identical to person_35437|blah-blah-blah|2000-02-04 but kept for subsequent analysis
+NOTE: 11 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: person_836163|blah-blah-blah|2000-01-20 (identical to person_714145|blah-blah-blah|2000-01-14) is ignored but added at the end
+NOTE: person_245506|blah-blah-blah|2000-02-04 (identical to person_714145|blah-blah-blah|2000-01-14) is ignored but added at the end
+NOTE: person_908834|blah-blah-blah|2000-01-28 (identical to person_714145|blah-blah-blah|2000-01-14) is ignored but added at the end
+NOTE: person_938792|blah-blah-blah|2000-02-03 (identical to person_714145|blah-blah-blah|2000-01-14) is ignored but added at the end
+NOTE: person_943912|blah-blah-blah|2000-02-07 (identical to person_714145|blah-blah-blah|2000-01-14) is ignored but added at the end
+NOTE: person_818121|blah-blah-blah|2000-02-01 (identical to person_714145|blah-blah-blah|2000-01-14) is ignored but added at the end
+NOTE: person_565634|blah-blah-blah|2000-02-03 (identical to person_714145|blah-blah-blah|2000-01-14) is ignored but added at the end
+NOTE: person_462509|blah-blah-blah|2000-02-08 (identical to person_253125|blah-blah-blah|2000-01-27) is ignored but added at the end
+NOTE: person_113326|blah-blah-blah|2000-02-09 (identical to person_253125|blah-blah-blah|2000-01-27) is ignored but added at the end
+NOTE: person_527329|blah-blah-blah|2000-02-08 (identical to person_903873|blah-blah-blah|2000-02-05) is ignored but added at the end
+NOTE: person_374857|blah-blah-blah|2000-02-02 (identical to person_251973|blah-blah-blah|2000-02-03) is ignored but added at the end
+Alignment was printed to experiment_9/iqtree/iqtree-results.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to experiment_9/iqtree/iqtree-results.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.001 seconds
+
+NOTE: 0 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -14513.314
+Optimal log-likelihood: -14513.314
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Parameters optimization took 1 rounds (0.001 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.00525594 secs using 94.41% CPU
+Computing ML distances took 0.005378 sec (of wall-clock time) 0.005039 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000127077 secs using 62.17% CPU
+Computing RapidNJ tree took 0.000406 sec (of wall-clock time) 0.000284 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -14513.750
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.100 second
+Computing log-likelihood of 98 initial trees ... 0.056 seconds
+Current best score: -14513.314
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -14513.314
+BETTER TREE FOUND at iteration 2: -14513.314
+BETTER TREE FOUND at iteration 3: -14513.314
+BETTER TREE FOUND at iteration 4: -14513.314
+Iteration 10 / LogL: -14513.314 / Time: 0h:0m:0s
+Iteration 20 / LogL: -14513.314 / Time: 0h:0m:0s
+Finish initializing candidate tree set (20)
+Current best tree score: -14513.314 / CPU time: 0.195
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -14531.921 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 40 / LogL: -14526.106 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 50 / LogL: -14513.361 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 60 / LogL: -14587.960 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 70 / LogL: -14521.993 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 80 / LogL: -14513.314 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 90 / LogL: -14517.037 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 100 / LogL: -14513.418 / Time: 0h:0m:0s (0h:0m:0s left)
+TREE SEARCH COMPLETED AFTER 105 ITERATIONS / Time: 0h:0m:0s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -14513.314
+Optimal log-likelihood: -14513.314
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Parameters optimization took 1 rounds (0.001 sec)
+BEST SCORE FOUND : -14513.314
+Total tree length: 0.006
+
+Total number of iterations: 105
+CPU time used for tree search: 0.817 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.657 sec (0h:0m:0s)
+Total CPU time used: 0.841 sec (0h:0m:0s)
+Total wall-clock time used: 0.683 sec (0h:0m:0s)
+
+Analysis results written to: 
+  IQ-TREE report:                experiment_9/iqtree/iqtree-results.iqtree
+  Maximum-likelihood tree:       experiment_9/iqtree/iqtree-results.treefile
+  Likelihood distances:          experiment_9/iqtree/iqtree-results.mldist
+  Screen log file:               experiment_9/iqtree/iqtree-results.log
+
+Date and Time: Sun Nov  3 20:24:59 2024

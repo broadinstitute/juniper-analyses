@@ -1,0 +1,1830 @@
+{
+"meta": {
+"title": "Auspice visualization of TreeTime (v0.11.4) analysis",
+"build_url": "https://github.com/neherlab/treetime",
+"last_updated": "2024-11-03",
+"treetime_version": "0.11.4",
+"genome_annotations": {
+"nuc": {
+"start": 1,
+"end": 10000,
+"type": "source",
+"strand": "+:"
+}
+},
+"panels": [
+"tree",
+"entropy"
+],
+"colorings": [
+{
+"title": "Date",
+"type": "continuous",
+"key": "num_date"
+},
+{
+"title": "Genotype",
+"type": "categorical",
+"key": "gt"
+},
+{
+"title": "Excluded",
+"type": "categorical",
+"key": "bad_branch"
+},
+{
+"title": "Branch Support",
+"type": "continuous",
+"key": "confidence"
+}
+],
+"display_defaults": {
+"color_by": "bad_branch"
+},
+"filters": [
+"bad_branch"
+]
+},
+"tree": {
+"name": "NODE_0000000",
+"node_attrs": {
+"num_date": {
+"value": 2009.0949387424137
+},
+"div": 0.001,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NODE_0000002",
+"node_attrs": {
+"num_date": {
+"value": 2011.532128005802
+},
+"div": 0.001199498419073897,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A8049C"
+]
+}
+},
+"children": [
+{
+"name": "person_546440|blah-blah-blah|2000-01-18",
+"node_attrs": {
+"num_date": {
+"value": 2017.0013698630137
+},
+"div": 0.0013610930100620825,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A880G",
+"A4478G"
+]
+}
+}
+},
+{
+"name": "person_906683|blah-blah-blah|2000-01-16",
+"node_attrs": {
+"num_date": {
+"value": 2015.0013698630137
+},
+"div": 0.001359584309634049,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A1620C",
+"A2651C"
+]
+}
+}
+},
+{
+"name": "NODE_0000003",
+"node_attrs": {
+"num_date": {
+"value": 2016.9921599466263
+},
+"div": 0.0014992162176565146,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.982
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A270C",
+"A668C",
+"A3520C",
+"A9356G"
+]
+}
+},
+"children": [
+{
+"name": "person_339566|blah-blah-blah|2000-01-18",
+"node_attrs": {
+"num_date": {
+"value": 2017.0013698630137
+},
+"div": 0.0014992162176565146,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "person_672221|blah-blah-blah|2000-01-25",
+"node_attrs": {
+"num_date": {
+"value": 2024.0013661202186
+},
+"div": 0.0015597799619703641,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A5726T"
+]
+}
+}
+}
+]
+},
+{
+"name": "NODE_0000012",
+"node_attrs": {
+"num_date": {
+"value": 2018.000229265098
+},
+"div": 0.0013610930100620825,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.865
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A5834G",
+"A6804G"
+]
+}
+},
+"children": [
+{
+"name": "person_938454|blah-blah-blah|2000-01-19",
+"node_attrs": {
+"num_date": {
+"value": 2018.0013698630137
+},
+"div": 0.0013610930100620825,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "person_462247|blah-blah-blah|2000-01-24",
+"node_attrs": {
+"num_date": {
+"value": 2023.0013698630137
+},
+"div": 0.0016288619139214033,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A5285T",
+"A8551T",
+"A8590T",
+"A9046C"
+]
+}
+}
+}
+]
+},
+{
+"name": "NODE_0000004",
+"node_attrs": {
+"num_date": {
+"value": 2016.414116172717
+},
+"div": 0.001199498419073897,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "person_766522|blah-blah-blah|2000-01-23",
+"node_attrs": {
+"num_date": {
+"value": 2022.0013698630137
+},
+"div": 0.0013610930100620825,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A1812G",
+"A5683G"
+]
+}
+}
+},
+{
+"name": "NODE_0000005",
+"node_attrs": {
+"num_date": {
+"value": 2016.997755170623
+},
+"div": 0.001199498419073897,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "person_697101|blah-blah-blah|2000-01-27",
+"node_attrs": {
+"num_date": {
+"value": 2026.0013698630137
+},
+"div": 0.0013603353241390217,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A772C",
+"A6889G"
+]
+}
+}
+},
+{
+"name": "NODE_0000006",
+"node_attrs": {
+"num_date": {
+"value": 2017.7885868591
+},
+"div": 0.001199498419073897,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "person_300741|blah-blah-blah|2000-01-21",
+"node_attrs": {
+"num_date": {
+"value": 2020.0013661202186
+},
+"div": 0.001284324193795676,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A5769T"
+]
+}
+}
+},
+{
+"name": "NODE_0000007",
+"node_attrs": {
+"num_date": {
+"value": 2019.0013698630137
+},
+"div": 0.001199498419073897,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "person_732855|blah-blah-blah|2000-01-20",
+"node_attrs": {
+"num_date": {
+"value": 2019.0013698630137
+},
+"div": 0.001199498419073897,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000008",
+"node_attrs": {
+"num_date": {
+"value": 2020.0013661202186
+},
+"div": 0.001199498419073897,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "person_825708|blah-blah-blah|2000-01-23",
+"node_attrs": {
+"num_date": {
+"value": 2022.0013698630137
+},
+"div": 0.001199498419073897,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "person_523788|blah-blah-blah|2000-01-21",
+"node_attrs": {
+"num_date": {
+"value": 2020.0013661202186
+},
+"div": 0.001199498419073897,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000014",
+"node_attrs": {
+"num_date": {
+"value": 2021.0013698630137
+},
+"div": 0.0015100409178363686,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.982
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A1983C",
+"A2314T",
+"A8353G",
+"A9463T"
+]
+}
+},
+"children": [
+{
+"name": "person_991141|blah-blah-blah|2000-01-22",
+"node_attrs": {
+"num_date": {
+"value": 2021.0013698630137
+},
+"div": 0.0015100409178363686,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "person_939601|blah-blah-blah|2000-01-22",
+"node_attrs": {
+"num_date": {
+"value": 2021.0013698630137
+},
+"div": 0.0015100409178363686,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000015",
+"node_attrs": {
+"num_date": {
+"value": 2024.0013661202186
+},
+"div": 0.0015734935011225155,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A8712C"
+]
+}
+},
+"children": [
+{
+"name": "person_538392|blah-blah-blah|2000-01-25",
+"node_attrs": {
+"num_date": {
+"value": 2024.0013661202186
+},
+"div": 0.0015734935011225155,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "person_817082|blah-blah-blah|2000-01-28",
+"node_attrs": {
+"num_date": {
+"value": 2027.0013698630137
+},
+"div": 0.0015734935011225155,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+},
+{
+"name": "NODE_0000011",
+"node_attrs": {
+"num_date": {
+"value": 2021.8902587519026
+},
+"div": 0.0015100409178363686,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "person_502507|blah-blah-blah|2000-01-23",
+"node_attrs": {
+"num_date": {
+"value": 2022.0013698630137
+},
+"div": 0.0015100409178363686,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000013",
+"node_attrs": {
+"num_date": {
+"value": 2024.8508824890741
+},
+"div": 0.0015100409178363686,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "person_840388|blah-blah-blah|2000-01-26",
+"node_attrs": {
+"num_date": {
+"value": 2025.0013698630137
+},
+"div": 0.0015100409178363686,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000016",
+"node_attrs": {
+"num_date": {
+"value": 2024.8508824890741
+},
+"div": 0.0015100409178363686,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "person_806386|blah-blah-blah|2000-01-29",
+"node_attrs": {
+"num_date": {
+"value": 2028.0013661202186
+},
+"div": 0.0015100409178363686,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "person_125816|blah-blah-blah|2000-01-28",
+"node_attrs": {
+"num_date": {
+"value": 2027.0013698630137
+},
+"div": 0.0015100409178363686,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000001",
+"node_attrs": {
+"num_date": {
+"value": 2010.5588089019766
+},
+"div": 0.001,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C7322A"
+]
+}
+},
+"children": [
+{
+"name": "person_526138|blah-blah-blah|2000-01-21",
+"node_attrs": {
+"num_date": {
+"value": 2020.0013661202186
+},
+"div": 0.001449106782944374,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A2484C",
+"A3069G",
+"A3511G",
+"A3536C",
+"A8095G"
+]
+}
+}
+},
+{
+"name": "person_444223|blah-blah-blah|2000-01-29",
+"node_attrs": {
+"num_date": {
+"value": 2028.0013661202186
+},
+"div": 0.0012936259278734106,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A1357C",
+"A6083T",
+"A9823C"
+]
+}
+}
+},
+{
+"name": "NODE_0000036",
+"node_attrs": {
+"num_date": {
+"value": 2017.9500839854172
+},
+"div": 0.001386162111093743,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.982
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A178C",
+"A556T",
+"A702G",
+"A5122T"
+]
+}
+},
+"children": [
+{
+"name": "person_166637|blah-blah-blah|2000-01-19",
+"node_attrs": {
+"num_date": {
+"value": 2018.0013698630137
+},
+"div": 0.001386162111093743,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "person_495590|blah-blah-blah|2000-01-27",
+"node_attrs": {
+"num_date": {
+"value": 2026.0013698630137
+},
+"div": 0.001386162111093743,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+},
+{
+"name": "NODE_0000037",
+"node_attrs": {
+"num_date": {
+"value": 2019.877824304543
+},
+"div": 0.0011042182846738504,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A9422C"
+]
+}
+},
+"children": [
+{
+"name": "person_168321|blah-blah-blah|2000-01-26",
+"node_attrs": {
+"num_date": {
+"value": 2025.0013698630137
+},
+"div": 0.0011042182846738504,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "person_988536|blah-blah-blah|2000-01-27",
+"node_attrs": {
+"num_date": {
+"value": 2026.0013698630137
+},
+"div": 0.0014431521446620324,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A1389G",
+"A4815C",
+"A5579T",
+"A6664G"
+]
+}
+}
+}
+]
+},
+{
+"name": "NODE_0000020",
+"node_attrs": {
+"num_date": {
+"value": 2010.829082465953
+},
+"div": 0.001,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "person_333540|blah-blah-blah|2000-01-22",
+"node_attrs": {
+"num_date": {
+"value": 2021.0013698630137
+},
+"div": 0.0012018352626788668,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A4539G",
+"A7450G"
+]
+}
+}
+},
+{
+"name": "NODE_0000021",
+"node_attrs": {
+"num_date": {
+"value": 2011.3670894455463
+},
+"div": 0.001,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NODE_0000023",
+"node_attrs": {
+"num_date": {
+"value": 2013.0013698630137
+},
+"div": 0.0011042182846738504,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A4784C"
+]
+}
+},
+"children": [
+{
+"name": "person_157144|blah-blah-blah|2000-01-14",
+"node_attrs": {
+"num_date": {
+"value": 2013.0013698630137
+},
+"div": 0.0011042182846738504,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "person_961798|blah-blah-blah|2000-01-21",
+"node_attrs": {
+"num_date": {
+"value": 2020.0013661202186
+},
+"div": 0.0011042182846738504,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+},
+{
+"name": "NODE_0000025",
+"node_attrs": {
+"num_date": {
+"value": 2012.0013661202186
+},
+"div": 0.001,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "person_402199|blah-blah-blah|2000-01-13",
+"node_attrs": {
+"num_date": {
+"value": 2012.0013661202186
+},
+"div": 0.001,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000024",
+"node_attrs": {
+"num_date": {
+"value": 2017.7542750032776
+},
+"div": 0.001104867576786844,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A7159G"
+]
+}
+},
+"children": [
+{
+"name": "person_555451|blah-blah-blah|2000-01-19",
+"node_attrs": {
+"num_date": {
+"value": 2018.0013698630137
+},
+"div": 0.001104867576786844,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "person_733999|blah-blah-blah|2000-01-29",
+"node_attrs": {
+"num_date": {
+"value": 2028.0013661202186
+},
+"div": 0.001104867576786844,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000027",
+"node_attrs": {
+"num_date": {
+"value": 2019.8478374586496
+},
+"div": 0.001295261664540351,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.95
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A2039T",
+"A3103G",
+"A8145C"
+]
+}
+},
+"children": [
+{
+"name": "person_473019|blah-blah-blah|2000-01-28",
+"node_attrs": {
+"num_date": {
+"value": 2027.0013698630137
+},
+"div": 0.0014487263868296942,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A2431G",
+"A4129C"
+]
+}
+}
+},
+{
+"name": "person_894959|blah-blah-blah|2000-01-23",
+"node_attrs": {
+"num_date": {
+"value": 2022.0013698630137
+},
+"div": 0.0013748517783395233,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A8916G"
+]
+}
+}
+},
+{
+"name": "person_76633|blah-blah-blah|2000-01-26",
+"node_attrs": {
+"num_date": {
+"value": 2025.0013698630137
+},
+"div": 0.0013748517783395233,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A1763G"
+]
+}
+}
+},
+{
+"name": "NODE_0000028",
+"node_attrs": {
+"num_date": {
+"value": 2021.0005113885463
+},
+"div": 0.001295261664540351,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "person_945971|blah-blah-blah|2000-01-26",
+"node_attrs": {
+"num_date": {
+"value": 2025.0013698630137
+},
+"div": 0.001295261664540351,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "person_130468|blah-blah-blah|2000-01-28",
+"node_attrs": {
+"num_date": {
+"value": 2027.0013698630137
+},
+"div": 0.0013744762112784404,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A9410C"
+]
+}
+}
+}
+]
+},
+{
+"name": "NODE_0000032",
+"node_attrs": {
+"num_date": {
+"value": 2021.7909845493148
+},
+"div": 0.0013744762112784404,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A914C"
+]
+}
+},
+"children": [
+{
+"name": "person_687443|blah-blah-blah|2000-01-23",
+"node_attrs": {
+"num_date": {
+"value": 2022.0013698630137
+},
+"div": 0.0013744762112784404,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000030",
+"node_attrs": {
+"num_date": {
+"value": 2024.8055646236692
+},
+"div": 0.0013744762112784404,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "person_546134|blah-blah-blah|2000-01-28",
+"node_attrs": {
+"num_date": {
+"value": 2027.0013698630137
+},
+"div": 0.0013744762112784404,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "person_186226|blah-blah-blah|2000-01-28",
+"node_attrs": {
+"num_date": {
+"value": 2027.0013698630137
+},
+"div": 0.0013744762112784404,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000039",
+"node_attrs": {
+"num_date": {
+"value": 2019.0013698630137
+},
+"div": 0.001295261664540351,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.95
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A241T",
+"A3369C",
+"A4357G"
+]
+}
+},
+"children": [
+{
+"name": "person_903926|blah-blah-blah|2000-01-23",
+"node_attrs": {
+"num_date": {
+"value": 2022.0013698630137
+},
+"div": 0.0013760348968508405,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A3265T"
+]
+}
+}
+},
+{
+"name": "person_561525|blah-blah-blah|2000-01-26",
+"node_attrs": {
+"num_date": {
+"value": 2025.0013698630137
+},
+"div": 0.0013744762112784404,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A9608C"
+]
+}
+}
+},
+{
+"name": "person_339931|blah-blah-blah|2000-01-20",
+"node_attrs": {
+"num_date": {
+"value": 2019.0013698630137
+},
+"div": 0.001295261664540351,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000045",
+"node_attrs": {
+"num_date": {
+"value": 2022.9990730811064
+},
+"div": 0.0013748517783395233,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A2392G"
+]
+}
+},
+"children": [
+{
+"name": "person_604947|blah-blah-blah|2000-01-24",
+"node_attrs": {
+"num_date": {
+"value": 2023.0013698630137
+},
+"div": 0.0013748517783395233,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "person_869352|blah-blah-blah|2000-01-29",
+"node_attrs": {
+"num_date": {
+"value": 2028.0013661202186
+},
+"div": 0.0014477686611951122,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A3653C"
+]
+}
+}
+}
+]
+},
+{
+"name": "NODE_0000033",
+"node_attrs": {
+"num_date": {
+"value": 2021.0013698630137
+},
+"div": 0.001295261664540351,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "person_35226|blah-blah-blah|2000-01-22",
+"node_attrs": {
+"num_date": {
+"value": 2021.0013698630137
+},
+"div": 0.001295261664540351,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "person_521620|blah-blah-blah|2000-01-26",
+"node_attrs": {
+"num_date": {
+"value": 2025.0013698630137
+},
+"div": 0.001295261664540351,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+},
+{
+"name": "NODE_0000046",
+"node_attrs": {
+"num_date": {
+"value": 2024.3516311091084
+},
+"div": 0.0013744762112784404,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A2130C"
+]
+}
+},
+"children": [
+{
+"name": "person_790108|blah-blah-blah|2000-01-27",
+"node_attrs": {
+"num_date": {
+"value": 2026.0013698630137
+},
+"div": 0.001448042825738368,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A4135T"
+]
+}
+}
+},
+{
+"name": "NODE_0000035",
+"node_attrs": {
+"num_date": {
+"value": 2024.5553981606836
+},
+"div": 0.0013744762112784404,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "person_628750|blah-blah-blah|2000-01-27",
+"node_attrs": {
+"num_date": {
+"value": 2026.0013698630137
+},
+"div": 0.0013744762112784404,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "person_181608|blah-blah-blah|2000-01-27",
+"node_attrs": {
+"num_date": {
+"value": 2026.0013698630137
+},
+"div": 0.0013744762112784404,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+}

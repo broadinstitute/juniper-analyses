@@ -1,0 +1,182 @@
+IQ-TREE 2.3.3 COVID-edition built Apr 18 2024
+
+Input file name: experiment_13/input_data/aligned.fasta
+Type of analysis: tree reconstruction
+Random seed number: 86292
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 50 sequences with 10000 nucleotide sites
+Number of constant sites: 9934 (= 99.34% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 9934 (= 99.34% of all sites)
+Number of parsimony informative sites: 29
+Number of distinct site patterns: 50
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: JC
+
+Rate parameter R:
+
+  A-C: 1.0000
+  A-G: 1.0000
+  A-T: 1.0000
+  C-G: 1.0000
+  C-T: 1.0000
+  G-T: 1.0000
+
+State frequencies: (equal frequencies)
+
+Rate matrix Q:
+
+  A        -1    0.3333    0.3333    0.3333
+  C    0.3333        -1    0.3333    0.3333
+  G    0.3333    0.3333        -1    0.3333
+  T    0.3333    0.3333    0.3333        -1
+
+Model of rate heterogeneity: Uniform
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -14553.0745 (s.e. 76.6507)
+Unconstrained log-likelihood (without tree): -648.5274
+Number of free parameters (#branches + #model parameters): 83
+Akaike information criterion (AIC) score: 29272.1490
+Corrected Akaike information criterion (AICc) score: 29273.5552
+Bayesian information criterion (BIC) score: 29870.6073
+
+Total tree length (sum of branch lengths): 0.0067
+Sum of internal branch lengths: 0.0021 (31.9402% of tree length)
+
+WARNING: 26 near-zero internal branches (<0.0001) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'person_402199|blah-blah-blah|2000-01-13' is drawn at root
+
++**person_402199|blah-blah-blah|2000-01-13
+|
+|            +**person_157144|blah-blah-blah|2000-01-14
+|     +------|
+|     |      +**person_961798|blah-blah-blah|2000-01-21
+|  +**|
+|  |  |      +**person_555451|blah-blah-blah|2000-01-19
+|  |  +------|
+|  |         +**person_733999|blah-blah-blah|2000-01-29
++**|
+|  |                                    +**person_339931|blah-blah-blah|2000-01-20
+|  |                                 +**|
+|  |                                 |  |            +**person_604947|blah-blah-blah|2000-01-24
+|  |                                 |  |     +------|
+|  |                                 |  |     |      +------person_869352|blah-blah-blah|2000-01-29
+|  |                                 |  |  +**|
+|  |                                 |  |  |  |         +**person_181608|blah-blah-blah|2000-01-27
+|  |                                 |  |  |  |      +**|
+|  |                                 |  |  |  |      |  +**person_628750|blah-blah-blah|2000-01-27
+|  |                                 |  |  |  +------|
+|  |                                 |  |  |         +------person_790108|blah-blah-blah|2000-01-27
+|  |                                 |  +**|
+|  |                                 |     +**person_35226|blah-blah-blah|2000-01-22
+|  |                              +**|
+|  |                              |  +------person_561525|blah-blah-blah|2000-01-26
+|  |        +---------------------|
+|  |        |                     +------person_903926|blah-blah-blah|2000-01-23
+|  |     +**|
+|  |     |  +---------------------person_444223|blah-blah-blah|2000-01-29
+|  |  +**|
+|  |  |  |                               +**person_166637|blah-blah-blah|2000-01-19
+|  |  |  |  +----------------------------|
+|  |  |  |  |                            +**person_495590|blah-blah-blah|2000-01-27
+|  |  |  +**|
+|  |  |     |      +**person_168321|blah-blah-blah|2000-01-26
+|  |  |     +------|
+|  |  |            +----------------------------person_988536|blah-blah-blah|2000-01-27
+|  +**|
+|     |  +------------------------------------person_526138|blah-blah-blah|2000-01-21
+|     +**|
+|        |                           +------person_894959|blah-blah-blah|2000-01-23
+|        |                        +**|
+|        |                        |  +------person_130468|blah-blah-blah|2000-01-28
+|        |                     +**|
+|        |                     |  |            +**person_687443|blah-blah-blah|2000-01-23
+|        |                     |  |     +------|
+|        |                     |  |     |      +**person_186226|blah-blah-blah|2000-01-28
+|        |                     |  |  +**|
+|        |                     |  |  |  +------person_76633|blah-blah-blah|2000-01-26
+|        |                     |  +**|
+|        |                     |     +**person_945971|blah-blah-blah|2000-01-26
+|        +---------------------|
+|                              +-------------person_473019|blah-blah-blah|2000-01-28
+|
+|                                                +**person_938454|blah-blah-blah|2000-01-19
+|                                  +-------------|
+|                                  |             +----------------------------person_462247|blah-blah-blah|2000-01-24
+|                               +**|
+|                               |  +-------------person_906683|blah-blah-blah|2000-01-16
+|                            +**|
+|                            |  +**person_825708|blah-blah-blah|2000-01-23
+|                         +**|
+|                         |  |  +-------------person_766522|blah-blah-blah|2000-01-23
+|                         |  +**|
+|                         |     +-------------person_546440|blah-blah-blah|2000-01-18
+|                      +**|
+|                      |  |                                  +**person_939601|blah-blah-blah|2000-01-22
+|                      |  |                               +**|
+|                      |  |                               |  +**person_991141|blah-blah-blah|2000-01-22
+|                      |  |  +----------------------------|
+|                      |  |  |                            |      +**person_538392|blah-blah-blah|2000-01-25
+|                      |  |  |                            +------|
+|                      |  |  |                                   +**person_817082|blah-blah-blah|2000-01-28
+|                      |  +**|
+|                      |     +-------------person_697101|blah-blah-blah|2000-01-27
+|                   +**|
+|                   |  +**person_523788|blah-blah-blah|2000-01-21
+|                +**|
+|                |  +------person_300741|blah-blah-blah|2000-01-21
+|  +-------------|
+|  |             |                            +**person_339566|blah-blah-blah|2000-01-18
+|  |             +----------------------------|
+|  |                                          +------person_672221|blah-blah-blah|2000-01-25
++**|
+   +-------------person_333540|blah-blah-blah|2000-01-22
+
+Tree in newick format:
+
+(person_402199|blah-blah-blah|2000-01-13:0.0000010000,(((person_157144|blah-blah-blah|2000-01-14:0.0000010000,person_961798|blah-blah-blah|2000-01-21:0.0000010000):0.0001000067,(person_555451|blah-blah-blah|2000-01-19:0.0000010000,person_733999|blah-blah-blah|2000-01-29:0.0000010000):0.0001000067):0.0000010000,((((((person_339931|blah-blah-blah|2000-01-20:0.0000010000,(((person_604947|blah-blah-blah|2000-01-24:0.0000010000,person_869352|blah-blah-blah|2000-01-29:0.0001000067):0.0001000067,((person_181608|blah-blah-blah|2000-01-27:0.0000010000,person_628750|blah-blah-blah|2000-01-27:0.0000010000):0.0000010000,person_790108|blah-blah-blah|2000-01-27:0.0001000067):0.0001000067):0.0000010000,person_35226|blah-blah-blah|2000-01-22:0.0000010000):0.0000010000):0.0000010000,person_561525|blah-blah-blah|2000-01-26:0.0001000067):0.0000010000,person_903926|blah-blah-blah|2000-01-23:0.0001000067):0.0003000600,person_444223|blah-blah-blah|2000-01-29:0.0003000600):0.0000010000,((person_166637|blah-blah-blah|2000-01-19:0.0000010000,person_495590|blah-blah-blah|2000-01-27:0.0000010000):0.0004001067,(person_168321|blah-blah-blah|2000-01-26:0.0000010000,person_988536|blah-blah-blah|2000-01-27:0.0004001067):0.0001000067):0.0000010000):0.0000010000,(person_526138|blah-blah-blah|2000-01-21:0.0005001667,(((person_894959|blah-blah-blah|2000-01-23:0.0001000067,person_130468|blah-blah-blah|2000-01-28:0.0001000067):0.0000010000,(((person_687443|blah-blah-blah|2000-01-23:0.0000010000,person_186226|blah-blah-blah|2000-01-28:0.0000010000):0.0001000067,person_76633|blah-blah-blah|2000-01-26:0.0001000067):0.0000010000,person_945971|blah-blah-blah|2000-01-26:0.0000010000):0.0000010000):0.0000010000,person_473019|blah-blah-blah|2000-01-28:0.0002000267):0.0003000600):0.0000010000):0.0000010000):0.0000010000,(((((((((person_938454|blah-blah-blah|2000-01-19:0.0000010000,person_462247|blah-blah-blah|2000-01-24:0.0004001067):0.0002000267,person_906683|blah-blah-blah|2000-01-16:0.0002000267):0.0000010000,person_825708|blah-blah-blah|2000-01-23:0.0000010000):0.0000010000,(person_766522|blah-blah-blah|2000-01-23:0.0002000267,person_546440|blah-blah-blah|2000-01-18:0.0002000267):0.0000010000):0.0000010000,(((person_939601|blah-blah-blah|2000-01-22:0.0000010000,person_991141|blah-blah-blah|2000-01-22:0.0000010000):0.0000010000,(person_538392|blah-blah-blah|2000-01-25:0.0000010000,person_817082|blah-blah-blah|2000-01-28:0.0000010000):0.0001000067):0.0004001067,person_697101|blah-blah-blah|2000-01-27:0.0002000267):0.0000010000):0.0000010000,person_523788|blah-blah-blah|2000-01-21:0.0000010000):0.0000010000,person_300741|blah-blah-blah|2000-01-21:0.0001000067):0.0000010000,(person_339566|blah-blah-blah|2000-01-18:0.0000010000,person_672221|blah-blah-blah|2000-01-25:0.0001000067):0.0004001067):0.0002000267,person_333540|blah-blah-blah|2000-01-22:0.0002000267):0.0000010000);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t experiment_13/iqtree/iqtree-results.treefile -m "JC" --length 10000
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s experiment_13/input_data/aligned.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s experiment_13/input_data/aligned.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Sun Nov  3 20:38:58 2024
+Total CPU time used: 0.968287 seconds (0h:0m:0s)
+Total wall-clock time used: 0.806455 seconds (0h:0m:0s)
+
