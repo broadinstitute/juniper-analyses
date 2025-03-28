@@ -7,6 +7,10 @@ Code to run analyses and generate figures for JUNIPER: Reconstructing Transmissi
 
 Before running code in this repository, please download the file juniper-analyses-oversize.zip from the Zenodo repository https://doi.org/10.5281/zenodo.14841603 and merge the contents with the juniper-analyses directory stored here. For example, the large file juniper-analyses-oversize/h5n1/res.RData from the Zenodo repository should be moved to juniper-analyses/h5n1/res.RData in this repository. The files deposited in the Zenodo repository were too large to host on this GitHub.
 
+### Private File Merging
+
+One file, `mass-10k/metadata.txt`, is not shown in this repository for data privacy reasons. It is only used for the large-scale SARS-CoV-2 analysis. To obtain this file and run the analysis, please contact the lead and corresponding author Ivan Specht at `ispecht@broadinstitute.org`.
+
 ### Packages
 
 The analyses in this repository require the following R packages: `juniper0`, `simulatR`, `outbreaker2`, `Rcpp`, `ape`, `ggplot2`, `igraph`, `readxl`, `reshape2`, `lubridate`, `coda`, and `cowplot`. `juniper0` and `simulatR` are custom R packages we built for this project; to install them, first install the `devtools` package, and then within R run `devtools::install_github("broadinstitute/juniper0")` and `devtools::install_github("broadinstitute/simulatR")`.
