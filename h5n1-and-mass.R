@@ -363,8 +363,16 @@ radial <- ggplot(df_sampled, aes(x=x,y=y,color=lineage)) +
 # H5N1 Analysis #
 #################
 
-# Juniper output
-load("h5n1/res.RData")
+if(regenerate){
+  # Data thinning
+  load("h5n1/res_full.RData")
+  res[[1]] <- res[[1]][seq(100, 50000, 100)]
+  res[[2]] <- res[[2]][seq(100, 50000, 100)]
+  save(res, file = "h5n1/res.RData")
+}else{
+  # Juniper output
+  load("h5n1/res.RData")
+}
 
 ss <- juniper0::summarize(res, burnin = 0.5)
 
@@ -676,7 +684,28 @@ for (i in 1:length(param_names)) {
 
 
 ### Performance / convergence of h5n1
-ss <- juniper0::summarize(res, burnin= 0)
+if(regenerate){
+  load("h5n1/res_full.RData")
+  ss <- juniper0::summarize(res, burnin= 0)
+  ss <- list()
+  ss$llik <- res[[1]]
+  ss$mu <- c()
+  ss$N_effs <- c()
+  ss$pi <- c()
+  ss$R <- c()
+  for(i in 1:length(ss$llik)){
+    ss$mu[i] <- res[[2]][[i]]$mu
+    ss$N_effs[i] <- res[[2]][[i]]$N_eff
+    ss$pi[i] <- res[[2]][[i]]$pi
+    ss$R[i] <- res[[2]][[i]]$R
+  }
+  save(ss, file = "h5n1/full_run_summary.RData")
+}else{
+  load("h5n1/full_run_summary.RData")
+}
+
+llik <- ss$llik
+
 h5n1_params <- list()
 h5n1_params[[1]] <- ss$mu * 365.25
 h5n1_params[[2]] <- log(2) / ss$N_effs
@@ -688,7 +717,7 @@ h5n1_convergence_plots <- list()
 h5n1_convergence_plots_zoomed <- list()
 
 # Load in log-likelihood from run on VM
-llik <- res[[1]]
+
 n_iters <- length(llik)
 
 
@@ -811,7 +840,7 @@ ggsave("figs/h5n1-mass-density.png", width = 8, height = 10)
 
 # Evolution rate
 message(paste0(
-  "Mean evolution rate (subs/site/day), H5N1: ",
+  "Mean evolution rate (subs/site/year), H5N1: ",
   signif(mean(h5n1_params[[1]][(n_iters * 0.5 + 1):n_iters]), 3),
   " (95% HPD: ",
   paste(signif(quantile(h5n1_params[[1]][(n_iters * 0.5 + 1):n_iters], c(0.025, 0.975)), 3), collapse = "-"),
@@ -839,5 +868,9 @@ message(paste0(
 message(paste0(
   "Number of transmission links in California with posterior probability exceeding 50%:", sum(ca_direct > 0.5)
 ))
+
+
+
+
 
 
