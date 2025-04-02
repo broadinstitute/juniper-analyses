@@ -17,11 +17,11 @@ if(length(args) > 0){
   }
 }
 
-fasta <- read.FASTA("mass-10k/input_data/aligned.fasta")
-names <- gsub("\\|.*", "", names(fasta))
-dates <- gsub(".*\\|", "", names(fasta))
-meta <- data.frame(sample = names, date = dates)
-write.csv(meta, file = "h5n1/input_data/metadata.csv", quote = F, row.names = F)
+#fasta <- read.FASTA("mass-10k/input_data/aligned.fasta")
+#names <- gsub("\\|.*", "", names(fasta))
+#dates <- gsub(".*\\|", "", names(fasta))
+#meta <- data.frame(sample = names, date = dates)
+#write.csv(meta, file = "h5n1/input_data/metadata.csv", quote = F, row.names = F)
 
 
 ## Lineage by case
@@ -188,13 +188,15 @@ message(paste0(
 # Relative change in transmission rate
 message(paste0(
   "Relative change in transmission rate for boosted as compared to unvaccinated individuals: ",
-  signif(100 * (mean(vax_df$Transmissions[vax_df$Status == "Boosted"]) - mean(vax_df$Transmissions[vax_df$Status == "Unvaccinated"])) / mean(vax_df$Transmissions[vax_df$Status == "Unvaccinated"]), 3)
+  signif(100 * (mean(vax_df$Transmissions[vax_df$Status == "Boosted"]) - mean(vax_df$Transmissions[vax_df$Status == "Unvaccinated"])) / mean(vax_df$Transmissions[vax_df$Status == "Unvaccinated"]), 3),
+  "%"
 ))
 
 message(paste0(
   "Relative change in transmission rate for vaccinated as compared to unvaccinated individuals: ",
   signif(100 * (mean(vax_df$Transmissions[vax_df$Status == "Vaccinated"]) - mean(vax_df$Transmissions[vax_df$Status == "Unvaccinated"])) / mean(vax_df$Transmissions[vax_df$Status == "Unvaccinated"])
-, 3)
+, 3),
+  "%"
 ))
 
 
